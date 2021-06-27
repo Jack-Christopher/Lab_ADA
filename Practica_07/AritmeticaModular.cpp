@@ -25,7 +25,7 @@ int main()
 {
     int n = 1073741824; // 2^30
     int mod = 1048576;  //2^20
-    std::cout<< n<< ": "<<fibonacci(n, mod);
+    std::cout<< "Resultado: "<<fibonacci(n, mod);
 
     return  0;
 }
