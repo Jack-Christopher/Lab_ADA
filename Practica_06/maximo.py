@@ -27,6 +27,6 @@ for n in lista:
 		A  = Generador(n)
 		contador += MAX(A, n)
 	print("n:        ", n)
-	print("Promedio: ", contador/200)
-	print("ln(n):  ", log(n))
+	print("Promedio: ", (contador/200) +1)
+	print("1+ ln(n):  ", 1+log(n))
 	print()
